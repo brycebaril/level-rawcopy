@@ -1,0 +1,30 @@
+{
+  "name": "level-rawcopy",
+  "version": "0.0.0",
+  "description": "An optimized live-copy from one levelup instance to another.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/"
+  },
+  "keywords": [
+    "levelup",
+    "replication",
+    "leveldb",
+    "backup",
+    "copy"
+  ],
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "dependencies": {
+    "level-bufferstreams": "~0.1.0",
+    "levelup": "~0.17.0"
+  },
+  "devDependencies": {
+    "memdown": "~0.5.1",
+    "tape": "~2.1.0",
+    "level-test": "~1.5.2"
+  }
+}
