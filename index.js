@@ -14,7 +14,7 @@ function rawcopy(sourceDB, target, options, callback) {
   }
 
   if (sourceDB.db.liveBackup && typeof target == "string") {
-    console.log("SHORTCUTTING!!! WOOO")
+    // TODO this doesn't yet seem to work!!!
     return sourceDB.db.liveBackup(target, callback)
   }
 
