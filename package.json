@@ -4,6 +4,7 @@
   "description": "An optimized live-copy from one levelup instance to another.",
   "main": "index.js",
   "directories": {
+    "example": "examples",
     "test": "test"
   },
   "scripts": {
@@ -26,5 +27,12 @@
     "memdown": "~0.5.1",
     "tape": "~2.1.0",
     "level-test": "~1.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brycebaril/level-rawcopy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brycebaril/level-rawcopy/issues"
   }
 }
