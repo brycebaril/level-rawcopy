@@ -21,12 +21,12 @@
   "license": "MIT",
   "dependencies": {
     "level-bufferstreams": "~0.1.0",
-    "levelup": "~0.17.0"
+    "levelup": "~0.18.2"
   },
   "devDependencies": {
-    "memdown": "~0.5.1",
-    "tape": "~2.1.0",
-    "level-test": "~1.5.2"
+    "memdown": "~0.6.0",
+    "tape": "~2.4.0",
+    "level-test": "~1.6.1"
   },
   "repository": {
     "type": "git",
